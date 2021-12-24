@@ -1,0 +1,18 @@
+#datetime {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--contrast2);
+    background-color: var(--background);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#datetime span {
+    margin-bottom: 15px;
+    position: relative;
+    display: block;
+}
+
+#clock-time {
+    font-size: 80px;
+}

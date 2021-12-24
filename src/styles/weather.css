@@ -1,0 +1,17 @@
+#weather {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--contrast2);
+    text-align: center;
+}
+
+#weather span {
+    margin-bottom: 15px;
+    position: relative;
+    display: block;
+}
+
+#weather_desc {
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+}

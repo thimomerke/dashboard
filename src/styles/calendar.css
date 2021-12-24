@@ -1,0 +1,36 @@
+#calendar {
+    height: 540px;
+}
+
+#calendar-entries {
+    overflow: scroll;
+    height: 470px;
+}
+
+#calendar-entries::-webkit-scrollbar {
+    display: none;
+}
+
+#calendar-headline {
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+}
+
+.calendar-entry {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 50px 350px;
+    column-gap: 10px;
+    font-weight: bold;
+}
+
+.entry-time {
+    font-size: 15px;
+    border-right: 3px solid var(--background);
+}
+
+.entry-summary {
+    font-size: 25px;
+}
